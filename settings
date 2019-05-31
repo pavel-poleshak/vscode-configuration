@@ -1,0 +1,36 @@
+{
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.mouseWheelZoom": true,
+    "breadcrumbs.enabled": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.tabSizing": "shrink",
+    "terminal.integrated.cursorStyle": "line",
+    "editor.renderControlCharacters": false,
+    "editor.rulers": [
+        120
+    ],
+    "explorer.confirmDelete": true,
+    "ruby.lint": {
+        "reek": false,
+        "rubocop": {
+            "lint": true,
+            "rails": true
+        },
+        "ruby": false, //Runs ruby -wc
+        "fasterer": false,
+        "debride": false,
+        "ruby-lint": false
+    },
+    "ruby.locate": {
+        "include": "**/*.rb"
+    },
+    "ruby.intellisense": "rubyLocate",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "powermode.presets": "clippy"
+}
